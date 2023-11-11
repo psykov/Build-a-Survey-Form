@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma para obtener más información</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container1 text-center">
+
+        <div class="formheader">
+            <h1 id="title">¿Por que necesito una página web?</h1>
+            <p id="description">Esta forma nos ayudará a saber las principales causas y razones por las que usted no quiere una página web de su negocio.</p>
+            </div>
+            
+<div class="col-6a">
+    
+    <form action="" id="survey-form">
+        <label for="" id="name-label">Escriba su nombre completo:</label>
+        <input type="text" id="name" required placeholder="Your Name here"><br>
+        <label for="" id="email-label">Escriba su email:</label>
+        <input id="email" required type="email" placeholder="example@mail.com"><br>
+        <label for="survey-form" id="number-label">Escriba su edad:</label>
+        <input type="number" min=18 max=100 id="number" placeholder="31">
+    
+        <label for="survey-form" id="dropdown1">Seleccione su género:
+        </label>
+        <select name="" id="dropdown">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+        
+        
+        <label for="survey-form" id="dropdown1" style="text-align: left;">¿Considera que una página web puede ayudarle a incrementar su presencia en internet así como brindarle profesionalismo a su marca?
+        </label>
+        <label for="survey-form" id="radios"><input class="options" type="radio" name="radios" value="option1"> Si</label>
+        <label for="survey-form" id="radios"><input class="options" type="radio" name="radios" value="option2"> No</label>
+        <br>
+        <label for="survey-form" id="checkbox">Seleccione varias opciones:</label>
+        <label for="survey-form" id="checkbox"><input class="options" type="checkbox" value="checkbox1"> Puedo vender sin una página web </label>
+        <label for="survey-form" id="checkbox"><input class="options" type="checkbox" value="checkbox2"> Se me hace inecesaria</label>
+        <label for="survey-form" id="checkbox"><input class="options" type="checkbox" value="checkbox3"> Yo mismo la puedo hacer</label>
+        <label for="survey-form" id="checkbox"><input class="options" type="checkbox" value="checkbox4"> Con facebook me basta</label>
+       <label for="survey-form" id="checkbox"><input class="options" type="checkbox" value="checkbox5"> Es muy cara, prefiero gastarlo en otras cosas</label>
+        <label for="survey-form" id="checkbox"><input class="options" type="checkbox" value="checkbox6"> ¿Qué es una página web?</label>
+
+
+
+        <label for="survey-form" id="comentarios">Escriba la razón por la que su negocio o profesión no necesita una página web:</label>
+        <textarea name="comentarios" id="textarea" cols="30" rows="10"></textarea>
+        <br>
+        <button id="submit" type="submit">Submit</button>
+    
+    </form>
+    
+</div>
+
+
+    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+}
+
+.formheader{
+    padding: 20px 10px 20px 10px;
+    color: aliceblue;
+
+}
+
+#dropdown{
+    margin: 10px auto;
+    width: 97%;
+    display: flex;
+}
+
+#name-label, #email-label, #number-label, #comentarios, #dropdown1{
+    display: flex;
+    margin-top: 20px;;
+}
+
+#radios, #checkbox{
+    display: flex;
+    
+
+}
+
+#name, #email, #number, #textarea {
+    width: 100%;
+}
+
+.options{
+    margin-right: 10px;
+}
+
+#submit{
+    margin: 20px auto;
+    width: 50%;
+}
+
+
+.container1{
+    background-color: rgb(62, 21, 101);
+    background-image: url(background1.jpg);
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.col-6a{
+    background-color: beige;
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+
+
+@media (min-width: 768px) {
+    .container1 {
+      max-width: 100%;
+      padding: 50px;
+    }
+    }
+
+@media (max-width: 768px) {
+        .container1 {
+          min-width: 500px;
+          padding:0%;
+        }
+        .col-6a{
+            width:100%}
+        }
+
+
+
+#submit{
+    background-color: rgb(90, 3, 96);
+    color: white;
+    border-radius: 10px ;
+        }
